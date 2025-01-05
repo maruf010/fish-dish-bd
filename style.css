@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: yellow;
+
+}
+header nav ul {
+    display: flex;
+    padding: 10px;
+    margin-left: 70%;
+
+}
+header nav ul li  {
+    margin: 15px;
+    list-style: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+.container-1{
+    display: flex;
+    margin:15px;
+}
+.box-line-1{
+    margin-right: 20px;
+    border: 1px solid rgb(21, 18, 18);
+    box-shadow: 10px 10px 10px ;
+    height: 200px;
+}
+.box-line-2{
+    border: 2px solid rgb(210, 203, 203);
+    background-color: yellow;
+    width: 283px;
+    margin-right: 20px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 10px 10px 5px;
+}    
